@@ -1,0 +1,7 @@
+package com.example.customquery.entity;
+
+public enum Role {
+
+    ADMIN,ENGINEER,QUALITYPR,QUALITYASM,PRODUCTIONCUT,PRODUCTIONASM,MANAGER,NOTACTIVE,CUTTINGTEH,ETBTEH
+
+}
