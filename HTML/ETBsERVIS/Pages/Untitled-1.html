@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+     
+     
+      
+    </script>
+</head>
+
+<body>
+   <button type="button" class="btn btn-default" onclick="window.open('file:////C:/Script/seacher.exe'); return true;">Update</button>
+    <a href = "C:/Script/seacher.exe">Оновити</a>
+    <div id="FileContent">Your content will appear here</div>
+</body>
+<script src="C:/Script/fileList.js"></script>
+<script>
+    var arr = line.split('^');
+    
+    var found = arr.find(function(element) {
+        
+  return element.indexOf('LAH_760_971_A_Bordnetz_LAH_Serie_VW536_EU__K_V5_00_20150625325235253') > -1;
+});
+
+    if (found !== undefined) {
+       console.log(found);
+    window.open(found) 
+    }
+else{
+    alert("Візуалку не знайдено")
+}
+ //console.log(arr.indexOf("D:/My Documents/Desktop/Work InstructionsIT_13.05 Design planning.pdf"))
+    </script>
+</html>
